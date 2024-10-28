@@ -1,26 +1,7 @@
 > base_url="http://api.zanao.com"
 
-/app/devicereg
 
-```
-{
-"device_id": "00000000-4d2c-8093-ffff-ffffef05aca-07e09d98dc53262f",
-"app_info": "{\"os\":\"Android\",\"hbVersion\":127,\"name\":\"校园集市\",\"appVersionName\":\"1.3.5\",\"appVersionCode\":135,\"brand\":\"XiaoMi\",\"regId\":\"XiaoMi_IN_f10d93e629cc96b2ae690578d819e281\",\"regType\":\"oppopush\",\"deviceId\":\"00000000-2b1c-8093-ffff-ffffef05ac4a-07e09d98dc53262f\",\"systemVersion\":\"34\",\"cacheSize\":\"728.45KB\"}",
-"ua": "Mozilla/5.0 (Linux; Android 14; CPH2487 Build/UKQ1.231108.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/129.0.6668.102 Mobile Safari/537.36 __HB__NightMode-3",
-"reg_id": "OnePlus_IN_f10d93e629cc82b2ae690578d819e281"
-}
-```
-
-> {
-> "errno": 0,
-> "errmsg": "",
-> "data": {
-> "account_login": true,
-> "wx_login": true
-> }
-> }
-
-/msg/unum
+# /msg/unum
 
 ```
 {
@@ -53,6 +34,61 @@ from_time=1730107273 # 时间戳
 }
 
 
+```
+
+# /comment/list
+
+```
+{
+"sign": "NlZta043eGQrYVl1cjhoTnhRazhNd1FqbUU1eCtac2NCTG9vREFucFZ1eUVYeGx4TDJ1YUVKWi9QbmtjdGltbG9YUjMzOGJRUy95UTdsQTFjNjRmM2JNVWpid1JSQXBNdk02TUxLa1RWYTQ9",
+"rcid": "0",
+"id": "1889847064",
+"vuid": "0"
+}
+```
+
+```
+{
+"errno": 0,
+"errmsg": "",
+"data": {
+"list": [
+{
+"comment_id": "1889862588",
+"reply_comment_id": "0",
+"root_comment_id": "0",
+"content": "内容",
+"post_time": "1730109087",
+"like_num": "0",
+"dislike_num": "0",
+"cert_show": "0",
+"is_mine": true,
+"is_author": true,
+"is_hide": false,
+"uid": "dG1pV2FvQ21tYTJVenMrU2gyYTRvb2FsYW1tTHE2S0FpcUo4aUppbXVKYXVhbmx2aUtxVmFJU1ZzdFNBZWJDcmZaS0VzSUpoa0lDT3IySjI=",
+"headimgurl": "http://b1.cdn.zanao.com/upload/上传日期/随机字符串.jpeg@!sm_w100_h100",
+"nickname": "网名",
+"is_forbid": "0",
+"user_level": 5,
+"user_level_title": "本科生",
+"medal_exp_2023": "",
+"notice_ignore": false,
+"post_time_text": "",
+"like_has": false,
+"dislike_has": false,
+"from_app": true,
+"reply_list": [],
+"author_liked": false,
+"like_show": true
+}
+],
+"agree_need": false,
+"user_cert_valid": true,
+"need_comment_show_cert": false,
+"cert_show_open": true,
+"author_like_open": false
+}
+}
 ```
 
 # https://log.tbs.qq.com  腾讯浏览服务
